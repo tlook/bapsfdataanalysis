@@ -19,9 +19,5 @@ config.set('ANALYSIS', 'TIME_WINDOW_START', '18750')
 config.set('ANALYSIS', 'TIME_WINDOW_END', '28125')
 config.set('ANALYSIS', 'SAVGOL_WINDOW_LENGTH', '28125')
 
-TIME_WINDOW_START = 18750
-TIME_WINDOW_END = 28125
-SAVGOL_WINDOW_LENGTH = 28125
-
 with open('config.ini', 'w') as f:
     config.write(f)
